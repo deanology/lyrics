@@ -1,0 +1,102 @@
+
+@media (max-width: 576px){
+    .main-menu .navbar-brand{
+        max-width: 120px;
+    }
+    .main-menu .navbar{
+        padding: 15px 0;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 991px){
+    .main-menu .navbar{
+        padding: 15px 0;
+    }
+    .navbar .navbar-toggler{
+        border-color: transparent;
+        padding: 0;
+    }
+    .main-menu .main-menu-item{
+        text-align: left !important;
+    }
+    .navbar-collapse{
+        z-index: 9999 !important;
+        position: absolute;
+        left: 0;
+        top: 62px;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0px 11px 9px -5px rgba(0, 0, 0, 0.2);
+    }
+    .navbar-nav{
+        align-items: flex-end !important;
+    }
+    .main-menu .main-menu-item .nav-item{
+        padding: 5px 15px !important;
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 5px 12px;
+    }
+    .hotline{
+        display: none;
+        visibility: hidden;
+    }
+    .padding{
+        padding:70px 0;
+    }
+    .title h2{
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .main-menu .navbar-brand{
+        max-width: 130px;
+    }
+    .main-menu .navbar{
+        padding: 15px 0;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (min-width:576px){
+}
+@media only screen and (min-width:768px){
+}
+@media only screen and (min-width:991px){
+}
+@media only screen and (min-width:1200px){
+
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .title{
+      font-size: 50px;
+      margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+    .main-menu .main-menu-item{
+        padding-left: 25px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 18px 15px;
+    }
+    .padding{
+        padding: 80px 0;
+    }
+    .title h2{
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (max-width:3640px) and (min-width:1170px){
+    .container{
+        max-width: 1170px;
+    }
+}

@@ -1,0 +1,281 @@
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  ul {list-style-type: none; padding: 0; margin: 0;}
+  a {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  a:hover {
+    outline: none;
+    text-decoration: none;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #242429;
+    font-family: "Playfair Display", serif;
+  }
+  p {
+    color: #666666;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.929;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #888888;
+  }
+  h1{
+      font-size: 36px;
+      line-height: 1.2em !important;
+      font-weight: 600;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 28px;
+    color: #242429;
+    font-weight: 600;
+    line-height: 1.222;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  a:focus, .button:focus, button:focus, .btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  }
+  .overlay{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+  }
+  .overlay-bg{
+    background-color: rgba(0, 0, 0, .85);
+  }
+  .padding{
+      padding: 100px 0;
+  }
+  .p0{
+      padding: 0;
+  }
+  .relative{
+      position: relative;
+  }
+  /* header */
+  .top-header{
+      background: #111f29;
+  }
+  .top-header a{
+      font: 400 14px/50px "Roboto", sans-serif;
+      color: #fff;
+  }
+  .top-header a:hover{
+      background: transparent;
+      color: #f6b60b;
+  }
+  .top-header a i{
+      color: #f6b60b;
+      font-size: 14px;
+  }
+  .top-header .top-header-socials a i{
+    color: #f6b60b;
+    font-weight: 600px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #f6b60b;
+    font-size: 14px;
+    padding: 22px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+
+/* banner-area */
+.banner-area{
+  background: url('../img/people-2557408__340.jpg') no-repeat fixed center center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* about us */
+/* .about{
+  margin-top: -100px;
+} */
+.view-menu-btn{
+  padding-top: 70px;
+}
+
+/* services */
+.services{
+  background-color: #f6b60b;
+}
+.single-service{
+  padding-bottom: 30px;
+}
+.single-service-con{
+  background: #fff;
+  padding: 0 30px;
+  padding-bottom: 20px;
+  margin-top: -30px;
+}
+.single-service-con i{
+  color: #fff;
+  font-size: 24px;
+  background: #333;
+  line-height: 60px;
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+  transition: all 300ms linear 0s;
+  position: relative;
+}
+.single-service-con a{
+  font: 700 18px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #222;
+  padding-top: 17px;
+  display: block;
+}
+.single-service-con p{
+  font: 400 14px/26px "Roboto", sans-serif;
+  color: #555555;
+  padding-top: 20px;
+}
+
+/* Menu */
+.menu-filter{
+  padding-bottom: 50px;
+}
+.menu-filter ul li{
+  display: inline-block;
+  padding-right: 30px;
+}
+.menu-filter ul li a{
+  font-size:14px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f6b60b;
+}
+.menu img{
+  cursor: pointer;
+}
+/* review */
+.review{
+  background-color: #f6b60b;
+}
+/* pricing */
+.single-price{
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  background-color: #f6b60b;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+.single-price .top-part img{
+  transition: all 0.3s ease 0s;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
+.single-price .top-part h4{
+  font: 400 20px "Montserrat", sans-serif;
+  color: #fff;
+  margin-top: 20px;
+}
+.single-price .package-list{
+  padding: 10px 0;
+}
+.package-list ul li{
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.bottom-part a.price-btn{
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+  color: #222;
+  margin-top: 40px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+}
+/* reservation */
+.reservation{
+  background: url('../img/restaurant-691397__340.jpg') no-repeat fixed center center;
+  background-size: cover;
+}
+.reservation h1{
+  margin: 0;
+}
+.reservation p{
+  padding: 20px 0;
+}
+.reservation .reservation-btn{
+  padding: 10px 40px;
+  color: #fff !important;
+}
+/* Contact */
+.contact .form-group{
+  padding-bottom: 16px;
+}
+.contact .form-control{
+  font-size: 15px;
+  border: transparent !important;
+  border-bottom: 1px solid rgba(0, 0, 0, .8) !important;
+  padding-left: 0;
+  padding-right: 0;
+  height: 50px;
+  border-radius: 0px;
+}
+.contact .textarea.form-control{
+  height: inherit !important;
+}
+.contact .btn-primary{
+  background: linear-gradient(45deg, #fc6b29 0%, #f1e767 100%);
+  border: transparent;
+  border-radius: 50px;
+}
+
+/* footer */
+.footer-area{
+  background: #313238;
+  padding: 30px;
+}
+.footer-area h4 p{
+  font-size: 14px;
+  color: #f6b60b !important;
+  font-weight: 400;
+}
+.quick-links ul li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.quick-links ul li a{
+  font: 400 14px;
+  text-transform: uppercase;
+  color: #f6b60b !important;
+}

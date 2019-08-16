@@ -30,25 +30,25 @@
 			<div class="row align-items-center">
 				<div class="col-lg-9 col-md-9 col-sm-9 d-none d-lg-block">
 					<a href="#" class="mr-5">
-						<i class="lnr lnr-phone mr-1"></i>
+						<i class="fas fa-phone-alt mr-1"></i>
 						+2348132546664
 					</a>
 					<a href="#" class="mr-5">
-						<i class="lnr lnr-envelope mr-1"></i>
+						<i class="fas fa-envelope mr-1"></i>
 						info@restaurant.com
 					</a>
 					<a href="#" class="mr-5">
-						<i class="lnr lnr-clock mr-1"></i>
+						<i class="far fa-clock mr-1"></i>
 						Mon - Sun 8:00AM - 11:00PM
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 d-none d-lg-block">
 					<div class="top-header-socials">
-						<a href="#" class="mr-3"><i class="lnr lnr-clock"></i></a>
-						<a href="#" class="mr-3"><i class="lnr lnr-clock"></i></a>
-						<a href="#" class="mr-3"><i class="lnr lnr-clock"></i></a>
-						<a href="#" class="mr-3"><i class="lnr lnr-clock"></i></a>
-						<a href="#" class="mr-3"><i class="lnr lnr-clock"></i></a>
+						<a href="#" class="mr-3"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="mr-3"><i class="fab fa-twitter"></i></i></a>
+						<a href="#" class="mr-3"><i class="fab fa-instagram"></i></a>
+						<a href="#" class="mr-3"><i class="fab fa-whatsapp"></i></a>
+						<a href="#" class="mr-3"><i class="fab fa-youtube"></i></a>
 					</div>
 				</div>
 			</div>
@@ -59,7 +59,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-12">
 					<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand" href="#">Navbar</a>
+						<a class="navbar-brand text-uppercase" href="#">Restaurant</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
@@ -67,30 +67,31 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item">
-									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+									<a class="nav-link" href="#">Home</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">About</a>
+									<a class="nav-link" href="#about">About</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Services</a>
+									<a class="nav-link" href="#services">Services</a>
 								</li>
 								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<a class="nav-link" href="#menu">Menu</a>
+									<!-- <a class="nav-link dropdown-toggle" href="#menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Menu
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									</a> -->
+									<!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 										<a class="dropdown-item" href="#">Action</a>
 										<a class="dropdown-item" href="#">Another action</a>
 										<div class="dropdown-divider"></div>
 										<a class="dropdown-item" href="#">Something else here</a>
-									</div>
+									</div> -->
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Reservation</a>
+									<a class="nav-link" href="#reservation">Reservation</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Contact</a>
+									<a class="nav-link" href="#contact">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -102,8 +103,46 @@
 	<!-- End header area -->
 
 	<!-- banner area -->
-	<section class="banner-area">
-		<!-- <div class="overlay overlay-bg"></div> -->
+	<section class="banner-area" id="banner-area">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<div class="banner-area" style="background-image: url(img/beans-1834984__340.jpg)"></div>
+					<div class="carousel-caption d-none d-md-block">
+						<h2 class="text-uppercase text-white">We are <span>Creative</span></h2>
+						<h3>Restaurant | Lounge | Cafeteria</h3>
+						<p><a href="#contact" class="btn btn-primary banner-btn text-white text-uppercase">Contact Us</a></p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="banner-area" style="background-image: url(img/burgers-1976198__340.jpg)"></div>
+					<div class="carousel-caption d-none d-md-block">
+						<h2 class="text-uppercase text-white">We are <span>Creative</span></h2>
+						<h3>Restaurant | Lounge | Cafeteria</h3>
+						<p><a href="#contact" class="btn btn-primary banner-btn text-white text-uppercase">Contact Us</a></p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="banner-area" style="background-image: url(img/coffee-2242218__340.jpg)"></div>
+					<div class="carousel-caption d-none d-md-block">
+						<h2 class="text-uppercase text-white">We are <span>Creative</span></h2>
+						<h3>Restaurant | Lounge | Cafeteria</h3>
+						<p><a href="#contact" class="btn btn-primary banner-btn text-white text-uppercase">Contact Us</a></p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			  <span class="fas fa-arrow-left" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="fas fa-arrow-right" aria-hidden="true"></span>
+			</a>
+		  </div>
 	</section>
 	<!-- End banner area -->
 
@@ -113,11 +152,15 @@
 			<div class="row">
 				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 					<h1 class="">About</h1>
-					<p class="">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+					<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, optio placeat.
+						Aut esse id possimus nobis facere architecto.
+						Ullam assumenda quos eaque aspernatur a accusantium laudantium,
+						unde itaque eligendi quaerat.
+					</p>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 					<div class="view-menu-btn justify-content-center align-items-center">
-						<a class="btn btn-primary btn-lg" href="#" role="button">View Our Menu</a>
+						<a class="btn btn-primary btn-lg about-btn" href="#menu" role="button">View Our Menu</a>
 					</div>
 				</div>
 			</div>
@@ -131,7 +174,7 @@
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-7 text-center">
 					<div class="title">
-						<h2>Our Services</h2>
+						<h2 class="mb-4">Our Services</h2>
 						<p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
 						   vero possimus nihil recusandae tempore excepturi modi at quis est.
 						</p>
@@ -144,8 +187,8 @@
 						<img src="img/dish-918613__340.jpg" alt="Image">
 					</div>
 					<div class="single-service-con">
-						<i class="lnr lnr-home" aria-hidden="true"></i>
-						<a href="#">Building Construction</a>
+						<i class="fas fa-cheese"></i>
+						<a href="#">Lorem Ipsum</a>
 						<p>Lorem Ipsum is simply dummy text of the print-ing and typesetting industry.
 						   Lorem Ipsum has been the industry's standard dummy.
 						</p>
@@ -156,8 +199,8 @@
 						<img src="img/dish-918613__340.jpg" alt="Image">
 					</div>
 					<div class="single-service-con">
-						<i class="lnr lnr-home" aria-hidden="true"></i>
-						<a href="#">Building Construction</a>
+						<i class="fas fa-cocktail"></i>
+						<a href="#">Lorem Ipsum</a>
 						<p>Lorem Ipsum is simply dummy text of the print-ing and typesetting industry.
 						   Lorem Ipsum has been the industry's standard dummy.
 						</p>
@@ -168,8 +211,8 @@
 						<img src="img/dish-918613__340.jpg" alt="Image">
 					</div>
 					<div class="single-service-con">
-						<i class="lnr lnr-home" aria-hidden="true"></i>
-						<a href="#">Building Construction</a>
+						<i class="fas fa-cloud-meatball"></i>
+						<a href="#">Lorem Ipsum</a>
 						<p>Lorem Ipsum is simply dummy text of the print-ing and typesetting industry.
 						   Lorem Ipsum has been the industry's standard dummy.
 						</p>
@@ -186,7 +229,7 @@
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-7 text-center">
 					<div class="title">
-						<h2>Our Menu</h2>
+						<h2 class="mb-4">Our Menu</h2>
 							<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
 							vero possimus nihil recusandae tempore excepturi modi at quis est.
 							</p>
@@ -248,7 +291,7 @@
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-7 text-center">
 					<div class="title">
-						<h2>Customer's Review</h2>
+						<h2 class="mb-4">Customer's Review</h2>
 							<p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
 							vero possimus nihil recusandae tempore excepturi modi at quis est.
 							</p>
@@ -287,7 +330,7 @@
 								<img src="img/person_3.jpg" alt="Image" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 								<div class="review-content p-3">
 									<h2 class="mb-2 font-weight-light text-black h4">Philip Martins</h2>
-									<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+									<span class="d-block mb-3 text-white-opacity-05">Investment Banker</span>
 									<p class="mb-5 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.</p>
 								</div>
 							</div>
@@ -299,7 +342,7 @@
 								<img src="img/person_4.jpg" alt="Image" class="img-fluid mb-4 w-50 rounded-circle mx-auto">
 								<div class="review-content p-3">
 									<h2 class="mb-2 font-weight-light text-black h4">Philip Martins</h2>
-									<span class="d-block mb-3 text-white-opacity-05">Real Estate Agent</span>
+									<span class="d-block mb-3 text-white-opacity-05">Designer</span>
 									<p class="mb-5 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem totam non quis facere blanditiis praesentium est.</p>
 								</div>
 							</div>
@@ -328,7 +371,7 @@
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-7 text-center">
 					<div class="title">
-						<h2>Pricing Plan</h2>
+						<h2 class="mb-4">Pricing Plan</h2>
 					</div>
 				</div>
 			</div>
@@ -341,9 +384,9 @@
 						</div>
 						<div class="package-list">
 							<ul>
-								<li>Secure Online Transfer</li>
-								<li>Secure Online Transfer</li>
-								<li>Secure Online Transfer</li>
+								<li>Lorem Ipsum</li>
+								<li>Lorem Ipsum</li>
+								<li>Lorem Ipsum</li>
 							</ul>
 						</div>
 						<div class="bottom-part">
@@ -356,13 +399,13 @@
 					<div class="single-price">
 						<div class="top-part text-center">
 							<img src="img/spaghetti-863304__340.jpg" alt="Image" class="mx-auto">
-							<h4 class="text-uppercase">Sweet Soup</h4>
+							<h4 class="text-uppercase">Sweet Spaghetti</h4>
 						</div>
 						<div class="package-list">
 							<ul>
-								<li>Secure Online Transfer</li>
-								<li>Secure Online Transfer</li>
-								<li>Secure Online Transfer</li>
+								<li>Lorem Ipsum</li>
+								<li>Lorem Ipsum</li>
+								<li>Lorem Ipsum</li>
 							</ul>
 						</div>
 						<div class="bottom-part">
@@ -375,13 +418,13 @@
 					<div class="single-price">
 						<div class="top-part text-center">
 							<img src="img/beans-1834984__340.jpg" alt="Image" class="mx-auto">
-							<h4 class="text-uppercase">Sweet Soup</h4>
+							<h4 class="text-uppercase">Sweet Bread</h4>
 						</div>
 						<div class="package-list">
 							<ul>
-								<li>Secure Online Transfer</li>
-								<li>Secure Online Transfer</li>
-								<li>Secure Online Transfer</li>
+								<li>Lorem Ipsum</li>
+								<li>Lorem Ipsum</li>
+								<li>Lorem Ipsum</li>
 							</ul>
 						</div>
 						<div class="bottom-part">
@@ -405,7 +448,7 @@
 						et rerum error deserunt eius dolorem adipisci nam delectus obcaecati
 						repellendus?
 					</p>
-					<a class="btn btn-primary reservation-btn">Book Now</a>
+					<a  href="#" class="btn btn-primary reservation-btn">Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -418,7 +461,7 @@
 				<div class="row mb-5 justify-content-center">
 					<div class="col-lg-7 text-center">
 						<div class="title">
-							<h2>Contact Us</h2>
+							<h2 class="mb-4">Contact Us</h2>
 								<p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
 								vero possimus nihil recusandae tempore excepturi modi at quis est.
 								</p>
@@ -428,7 +471,8 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="map">
-
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.680283375132!2d3.4677364487498337!3d6.435096125951074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5ad89b0b8b1%3A0xd3d5600f470050ab!2s1+Olabanji+Olajide+Street%2C+Lekki+Phase+I%2C+Lekki!5e0!3m2!1sen!2sng!4v1565795670894!5m2!1sen!2sng"
+							width="550" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -461,25 +505,9 @@
 		</section>
 		<footer class="footer-area">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<h4>
-							<p>Copyright &copy;2019 All rights reserved | Idam Okechukwu Samuel </p>
-						</h4>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div class="quick-links">
-							<ul>
-								<li><a>Home</a></li>
-								<li><a>About</a></li>
-								<li><a>Services</a></li>
-								<li><a>Menu</a></li>
-								<li><a>Reservation</a></li>
-								<li><a>Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				<h4 class="text-center">
+					<p>Copyright &copy;2019 All rights reserved. Designed by | Idam Okechukwu Samuel </p>
+				</h4>
 			</div>
 		</footer>
 	<!-- End Contact Us -->

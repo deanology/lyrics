@@ -79,6 +79,11 @@ body {
   .relative{
       position: relative;
   }
+  .title h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
   /* header */
   .top-header{
       background: #111f29;
@@ -91,17 +96,22 @@ body {
       background: transparent;
       color: #f6b60b;
   }
-  .top-header a i{
+  .top-header a .svg-inline--fa{
       color: #f6b60b;
       font-size: 14px;
   }
-  .top-header .top-header-socials a i{
+  .top-header .top-header-socials a .svg-inline--fa{
     color: #f6b60b;
-    font-weight: 600px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .navbar-brand{
+    font-weight: 600;
   }
   .navbar-nav .nav-item .nav-link {
     color: #f6b60b;
     font-size: 14px;
+    font-weight: 600;
     padding: 22px;
     letter-spacing: .8px;
     text-transform: uppercase;
@@ -110,10 +120,52 @@ body {
 
 /* banner-area */
 .banner-area{
-  background: url('../img/people-2557408__340.jpg') no-repeat fixed center center;
+  background: no-repeat fixed center center;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
+}
+.carousel-indicators .active{
+  background-color: #edbb00;
+  color: #edbb00;
+}
+.carousel-control.left{
+  background-image: none;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: 10%;
+}
+.carousel-control-next .svg-inline--fa,
+.carousel-control-prev .svg-inline--fa{
+  height: 50px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 10px;
+}
+.carousel-caption{
+  padding-bottom: 250px;
+}
+.carousel-caption h2{
+  font-size: 70px;
+  font-weight: bold;
+  animation-delay: .1s;
+  animation-duration: .5s;
+}
+.carousel-caption h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.carousel-caption h2 span{
+  color: #edbb00;
+}
+.carousel-caption .banner-btn{
+  background: #edbb00;
+  padding: 15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 25px;
+  border: 1px solid transparent;
 }
 
 /* about us */
@@ -123,10 +175,14 @@ body {
 .view-menu-btn{
   padding-top: 70px;
 }
+.view-menu-btn .about-btn{
+  background: linear-gradient(to bottom left, #cc6600 0%, #f6b606 100%);
+  border-color: transparent;
+}
 
 /* services */
 .services{
-  background-color: #f6b60b;
+  background: linear-gradient(to left, #ff9933 0%, #f6b606 100%);
 }
 .single-service{
   padding-bottom: 30px;
@@ -142,6 +198,18 @@ body {
   font-size: 24px;
   background: #333;
   line-height: 60px;
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+  z-index: 1;
+  transition: all 300ms linear 0s;
+  position: relative;
+}
+.single-service-con .svg-inline--fa{
+  color: #fff;
+  font-size: 24px;
+  color: #f6b60b;
+  height: auto !important;
   width: 60px;
   display: block;
   margin: 0 auto;
@@ -168,7 +236,7 @@ body {
 }
 .menu-filter ul li{
   display: inline-block;
-  padding-right: 30px;
+  padding-right: 35px;
 }
 .menu-filter ul li a{
   font-size:14px !important;
@@ -181,13 +249,13 @@ body {
 }
 /* review */
 .review{
-  background-color: #f6b60b;
+  background: linear-gradient(to right, #ff9933 0%, #f6b606 100%);
 }
 /* pricing */
 .single-price{
   transition: all 0.3s ease 0s;
   text-align: center;
-  background-color: #f6b60b;
+  background: linear-gradient(to top left, #ff9933 0%, #f6b606 100%);
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 40px 20px;
@@ -237,6 +305,8 @@ body {
 .reservation .reservation-btn{
   padding: 10px 40px;
   color: #fff !important;
+  background-color: #f6b60b;
+  border-color: transparent;
 }
 /* Contact */
 .contact .form-group{
@@ -262,20 +332,10 @@ body {
 
 /* footer */
 .footer-area{
-  background: #313238;
-  padding: 30px;
+  background: #090909;
 }
 .footer-area h4 p{
-  font-size: 14px;
   color: #f6b60b !important;
   font-weight: 400;
-}
-.quick-links ul li{
-  display: inline-block;
-  padding-right: 20px;
-}
-.quick-links ul li a{
-  font: 400 14px;
-  text-transform: uppercase;
-  color: #f6b60b !important;
+  padding: 20px 0;
 }

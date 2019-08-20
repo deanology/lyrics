@@ -1,14 +1,42 @@
 
 @media (max-width: 576px){
-    .main-menu .navbar-brand{
-        max-width: 120px;
+    .carousel-caption{
+        display: block !important;
     }
-    .main-menu .navbar{
-        padding: 15px 0;
+    .carousel-caption h2{
+        font-size: 35px;
+        margin-bottom: 20px;
+      }
+      .carousel-caption h3{
+        font-size: 25px;
+      }
+      .carousel-caption .banner-btn{
+        padding: 8px 15px;
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 14px !important;
+      }
+    .about h1{
+        font-size: 30px;
     }
-    .title{
-        margin-bottom: 50px;
+    .about .about-text{
+        font-size: 14px !important;
     }
+    .view-menu-btn {
+        padding-top: 30px;
+      }
+      .view-menu-btn .about-btn{
+          font-size: 14px;
+      }
+      .form-btn{
+          padding: .375rem .75rem !important;
+      }
+      .padding{
+          padding: 70px 0;
+      }
+      .carousel-control-next, .carousel-control-prev {
+        width: 20%;
+      }
 }
 @media (max-width: 991px){
     .main-menu .navbar{
@@ -39,10 +67,6 @@
     .navbar-nav .nav-item .nav-link{
         padding: 5px 12px;
     }
-    .hotline{
-        display: none;
-        visibility: hidden;
-    }
     .padding{
         padding:70px 0;
     }
@@ -51,8 +75,21 @@
         line-height: 35px;
         margin-bottom: 10px;
     }
+    .top-header{
+        display: none;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .carousel-caption{
+        display: block !important;
+    }
+    .carousel-caption h2{
+        font-size: 35px;
+        margin-bottom: 20px;
+      }
+      .banner-btn{
+        padding: .375rem .75rem !important;
+      }
     .main-menu .navbar-brand{
         max-width: 130px;
     }
@@ -62,6 +99,15 @@
     .title{
         margin-bottom: 50px;
     }
+    .view-menu-btn {
+        padding-top: 30px;
+    }
+    .view-menu-btn .about-btn{
+        font-size: 14px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 20%;
+      }
 }
 @media only screen and (min-width:576px){
 }
@@ -77,6 +123,15 @@
       font-size: 50px;
       margin-bottom: 50px;
   }
+  .carousel-caption{
+        padding-bottom: 180px;
+    }
+    .view-menu-btn {
+        padding-top: 120px;
+    }
+    .view-menu-btn .about-btn{
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
     .main-menu .main-menu-item{
@@ -93,7 +148,6 @@
         line-height: 40px;
         margin-bottom: 10px;
     }
-    
 }
 @media only screen and (max-width:3640px) and (min-width:1170px){
     .container{

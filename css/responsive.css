@@ -34,9 +34,9 @@
       .padding{
           padding: 70px 0;
       }
-      .carousel-control-next, .carousel-control-prev {
+      /* .carousel-control-next, .carousel-control-prev {
         width: 20%;
-      }
+      } */
 }
 @media (max-width: 991px){
     .main-menu .navbar{
@@ -105,9 +105,9 @@
     .view-menu-btn .about-btn{
         font-size: 14px;
     }
-    .carousel-control-next, .carousel-control-prev {
+    /* .carousel-control-next, .carousel-control-prev {
         width: 20%;
-      }
+      } */
 }
 @media only screen and (min-width:576px){
 }

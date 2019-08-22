@@ -34,9 +34,9 @@
       .padding{
           padding: 70px 0;
       }
-      /* .carousel-control-next, .carousel-control-prev {
-        width: 20%;
-      } */
+      .carousel-control-next, .carousel-control-prev {
+        width: 8%;
+      }
 }
 @media (max-width: 991px){
     .main-menu .navbar{
@@ -78,6 +78,9 @@
     .top-header{
         display: none;
     }
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+      }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .carousel-caption{
@@ -105,9 +108,6 @@
     .view-menu-btn .about-btn{
         font-size: 14px;
     }
-    /* .carousel-control-next, .carousel-control-prev {
-        width: 20%;
-      } */
 }
 @media only screen and (min-width:576px){
 }

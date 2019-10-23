@@ -1,0 +1,82 @@
+.banner{
+    position: relative;
+    background: url('../img/mobile-605422__340.jpg') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+}
+.relative{
+    position: relative;
+}
+.padding{
+    padding: 100px 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.overlay-bg{
+    background: rgba(0, 0, 0, 0.55);
+}
+.banner-text{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+.padding{
+    padding: 100px 0;
+    position: relative;
+ }
+.song-lyrics{
+
+}
+.add-lyrics{
+    background: url('../img/piano-1655558__340.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+.section-heading{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.single-music-lyrics:first-child{
+    border-radius: 3px 3px 0 0;
+}
+.single-music-lyrics{
+    position: relative;
+    z-index: 1;
+    padding: 20px 30px;
+    background-color: #0c0c0c;
+    transition-duration: 500ms;
+    border-bottom: 1px solid #343535;
+}
+.single-music-lyrics .music-content{
+    position: relative;
+    z-index: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: oswald,sans-serif;
+    color: #191919;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.single-music-lyrics .music-content .sl-number h5 {
+    color: #fff;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+.single-music-lyrics .music-content .music-title h5 {
+    color: #fff;
+    margin-bottom: 0;
+}
+.single-music-lyrics .music-content .music-title h5 span {
+    color: #a6a6a6;
+}

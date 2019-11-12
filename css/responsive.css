@@ -1,22 +1,59 @@
 
 @media (max-width: 576px){
+    .padding{
+        padding: 50px 0;
+    }
+    .banner h2{
+        font-size: 24px;
+        line-height: 1;
+    }
+    .banner h2 span{
+        font-size: 18px;
+    }
+    .single-music-lyrics .music-content .music-title h5{
+        font-size: 14px;
+    }
+    .lyrics .btn{
+        padding: 1px 6px;
+        font-size: 14px;
+    }
+    .song-lyrics h2{
+        font-size: larger;
+        font-weight: bold;
+    }
 }
 @media (max-width: 991px){
+    .padding{
+        padding: 70px 0;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .padding{
+        padding: 70px 0;
+    }
+    .banner h2{
+        font-size: 30px;
+    }
+    .banner h2 span{
+        font-size: 20px;
+    }
 }
 @media only screen and (min-width:576px){
 }
 @media only screen and (min-width:768px){
-    .title{
-        font-size: 3rem;
-    }
+
 }
 @media only screen and (min-width:991px){
 }
 @media only screen and (min-width:1200px){
 }
 @media only screen and (max-width: 991px) and (min-width: 768px) {
+    .banner h2{
+        font-size: 36px;
+    }
+    .banner h2 span{
+        font-size: 24px;
+    }
 }
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
 }

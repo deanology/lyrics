@@ -1,56 +1,169 @@
-.banner{
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    /* overflow: hidden; */
+}
+
+.space-20 {
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #242429;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    color: #666666;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.929;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #888888;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 1.2em !important;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 28px;
+    color: #242429;
+    font-weight: 600;
+    line-height: 1.222;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 25px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus,
+button:active,
+.btn:active,
+.btn:active:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.banner {
     position: relative;
     background: url('../img/mobile-605422__340.jpg') no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
 }
-.relative{
+
+.add-lyrics-banner,
+.lyrics-banner,
+.single-lyrics-banner {
+    height: 50vh;
+}
+
+.relative {
     position: relative;
 }
-.padding{
+
+.padding {
     padding: 100px 0;
 }
-.overlay{
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
-.overlay-bg{
+
+.overlay-bg {
     background: rgba(0, 0, 0, 0.55);
 }
-.banner-text{
+
+.banner-text {
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
 }
-.padding{
+
+.padding {
     padding: 100px 0;
     position: relative;
- }
-.song-lyrics{
-
 }
-.add-lyrics{
+
+.song-lyrics {}
+
+.add-lyrics {
     background: url('../img/piano-1655558__340.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
 }
-.section-heading{
+
+.section-heading {
     position: relative;
     z-index: 1;
     margin-bottom: 50px;
 }
-.mb-50{
+
+.mb-50 {
     margin-bottom: 50px;
 }
-.single-music-lyrics:first-child{
+
+.single-music-lyrics:first-child {
     border-radius: 3px 3px 0 0;
 }
-.single-music-lyrics{
+
+.single-music-lyrics:last-child {
+    border-radius: 0 0 3px 3px;
+}
+
+.single-music-lyrics {
     position: relative;
     z-index: 1;
     padding: 20px 30px;
@@ -58,25 +171,106 @@
     transition-duration: 500ms;
     border-bottom: 1px solid #343535;
 }
-.single-music-lyrics .music-content{
+
+.single-music-lyrics .music-content {
     position: relative;
     z-index: 1;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: oswald,sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: oswald, sans-serif;
     color: #191919;
     line-height: 1.4;
     font-weight: 500;
 }
+
 .single-music-lyrics .music-content .sl-number h5 {
     color: #fff;
-    margin-bottom: 0;
-    margin-right: 20px;
 }
+
 .single-music-lyrics .music-content .music-title h5 {
     color: #fff;
     margin-bottom: 0;
 }
+
 .single-music-lyrics .music-content .music-title h5 span {
     color: #a6a6a6;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+}
+
+.copyright {
+    background-color: #04091e;
+}
+
+.page-link {
+    color: #000000;
+}
+
+.page-item.active .page-link {
+    background-color: #0c0c0c;
+    border-color: #0c0c0c;
+}
+
+.page-link:hover {
+    color: #ffffff;
+    background-color: #0c0c0c;
+    border-color: #0c0c0c;
+}
+
+.subscribe .lyrics-search-btn,
+.banner .search-btn {
+    background: #0c0c0c;
+    color: #fff;
+    border: 1px solid #0c0c0c !important;
+}
+
+.page-footer {
+    padding: 100px 0 50px;
+    background-color: #04091e;
+    color: #ffffff;
+}
+
+.subscribe {
+    background: #eeeeee;
+}
+
+.lyrics-form {
+    background: #eee;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.lyrics-btn {
+    background: #0c0c0c;
+    border-color: #0c0c0c;
+}
+
+.lyrics-btn:hover {
+    color: #fff;
+    background-color: #0c0c0c;
+    border-color: #0c0c0c;
+}
+
+.lyrics-btn:not(:disabled):not(.disabled):active,
+.lyrics-btn:not(:disabled):not(.disabled):active:focus {
+    background-color: #0c0c0c;
+    border-color: #0c0c0c;
+    box-shadow: none;
+}
+
+.share-social a {
+    border: 1px solid #007bff;
+    padding: 7px;
+    background: #007bff;
+    color: #fff;
 }

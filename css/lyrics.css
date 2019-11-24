@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     padding: 0;
@@ -136,8 +132,6 @@ button:active,
     padding: 100px 0;
     position: relative;
 }
-
-.song-lyrics {}
 
 .add-lyrics {
     background: url('../img/piano-1655558__340.jpg') no-repeat center center fixed;

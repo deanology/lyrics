@@ -1,10 +1,13 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Playfair Display", serif;
     padding: 0;
     margin: 0;
     font-size: 14px;
     /* overflow: hidden; */
 }
+
+
+/* helper classes */
 
 .space-20 {
     height: 20px;
@@ -19,16 +22,6 @@ a {
 a:hover {
     outline: none;
     text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #242429;
-    font-family: "Playfair Display", serif;
 }
 
 p {
@@ -87,25 +80,13 @@ button:active,
     box-shadow: none;
 }
 
-.banner {
-    position: relative;
-    background: url('../img/mobile-605422__340.jpg') no-repeat center center fixed;
-    height: 100vh;
-    background-size: cover;
-}
-
-.add-lyrics-banner,
-.lyrics-banner,
-.single-lyrics-banner {
-    height: 50vh;
-}
-
 .relative {
     position: relative;
 }
 
 .padding {
     padding: 100px 0;
+    position: relative;
 }
 
 .overlay {
@@ -120,6 +101,43 @@ button:active,
     background: rgba(0, 0, 0, 0.55);
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+
+/* End helper classes */
+
+
+/* Start navbar */
+
+.navbar-brand {
+    color: #66fcf1 !important;
+    font-size: 18px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #66fcf1 !important;
+}
+
+
+/* End navbar */
+
+
+/* Start banner area */
+
+.banner {
+    position: relative;
+    background: url('../img/mobile-605422__340.jpg') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+}
+
 .banner-text {
     top: 50%;
     left: 50%;
@@ -128,10 +146,77 @@ button:active,
     box-sizing: border-box;
 }
 
-.padding {
-    padding: 100px 0;
-    position: relative;
+.banner-text h2,
+.banner-text h1 {
+    color: #66fcf1 !important;
 }
+
+.banner-text h2 span {
+    color: #c5c6c7;
+}
+
+.add-lyrics-banner,
+.lyrics-banner,
+.single-lyrics-banner {
+    height: 50vh;
+}
+
+
+/* recently added lyrics */
+
+.song-lyrics h2 {
+    color: #0b0c10;
+}
+
+.single-music-lyrics .music-content .music-title h5 span {
+    color: #66fcf1;
+}
+
+.single-music-lyrics .music-content .sl-number h5 {
+    color: #fff;
+}
+
+.single-music-lyrics .music-content .music-title h5 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.song-lyrics .btn-outline-secondary {
+    color: #c5c6c7;
+    background: transparent;
+    border: 1px solid #66fcf1;
+    border-radius: 0;
+}
+
+.song-lyrics .btn-outline-secondary:hover {
+    color: #0b0c10;
+    background: #66fcf1;
+    border: 1px solid #66fcf1;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.page-item.active .page-link {
+    background-color: #0c0c0c;
+    border-color: #0c0c0c;
+}
+
+.page-link {
+    color: #000000;
+}
+
+.page-link:hover {
+    color: #ffffff;
+    background-color: #0c0c0c;
+    border-color: #0c0c0c;
+}
+
+
+/* End of recently added lyrics */
+
+
+/* add lyrics */
 
 .add-lyrics {
     background: url('../img/piano-1655558__340.jpg') no-repeat center center fixed;
@@ -139,13 +224,50 @@ button:active,
     color: #ffffff;
 }
 
+.lyrics-btn {
+    background: #66fcf1;
+    border-color: #66fcf1;
+    color: #0b0c10;
+    font-weight: 700;
+}
+
+
+/* End add lyrics */
+
+
+/* footer */
+
+.page-footer {
+    padding: 100px 0 50px;
+    background-color: #1f2833;
+    color: #ffffff;
+}
+
+.footer-header-color {
+    color: #66fcf1 !important;
+}
+
+.footer-text-color {
+    color: #c5c6c7 !important;
+    font-size: 16px;
+}
+
+
+/* end footer */
+
+
+/* copyright */
+
+.copyright {
+    background-color: #0b0c10;
+}
+
+
+/* end copyright */
+
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 50px;
-}
-
-.mb-50 {
     margin-bottom: 50px;
 }
 
@@ -171,66 +293,11 @@ button:active,
     z-index: 1;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: oswald, sans-serif;
-    color: #191919;
-    line-height: 1.4;
-    font-weight: 500;
-}
-
-.single-music-lyrics .music-content .sl-number h5 {
-    color: #fff;
-}
-
-.single-music-lyrics .music-content .music-title h5 {
-    color: #fff;
-    margin-bottom: 0;
-}
-
-.single-music-lyrics .music-content .music-title h5 span {
-    color: #a6a6a6;
-}
-
-.nav-link,
-.navbar-brand {
-    color: #fff;
-}
-
-.copyright {
-    background-color: #04091e;
-}
-
-.page-link {
-    color: #000000;
-}
-
-.page-item.active .page-link {
-    background-color: #0c0c0c;
-    border-color: #0c0c0c;
-}
-
-.page-link:hover {
-    color: #ffffff;
-    background-color: #0c0c0c;
-    border-color: #0c0c0c;
-}
-
 .subscribe .lyrics-search-btn,
 .banner .search-btn {
-    background: #0c0c0c;
-    color: #fff;
-    border: 1px solid #0c0c0c !important;
-}
-
-.page-footer {
-    padding: 100px 0 50px;
-    background-color: #04091e;
+    background: #0b0c10;
     color: #ffffff;
+    border: 1px solid #0b0c10 !important;
 }
 
 .subscribe {
@@ -242,11 +309,6 @@ h6 {
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0px 0px 10px 0px #000;
-}
-
-.lyrics-btn {
-    background: #0c0c0c;
-    border-color: #0c0c0c;
 }
 
 .lyrics-btn:hover {
@@ -263,8 +325,8 @@ h6 {
 }
 
 .share-social a {
-    border: 1px solid #007bff;
+    border: 1px solid #0c0c0c;
     padding: 7px;
-    background: #007bff;
-    color: #fff;
+    background: #0c0c0c;
+    color: #66fcf1;
 }

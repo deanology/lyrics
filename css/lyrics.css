@@ -78,6 +78,7 @@ button:active,
 
 .form-control:focus {
     box-shadow: none;
+    border-color: #ced4da;
 }
 
 .relative {
@@ -151,7 +152,7 @@ button:active,
     color: #66fcf1 !important;
 }
 
-.banner-text h2 span {
+.banner-text p {
     color: #c5c6c7;
 }
 
@@ -329,4 +330,14 @@ button:active,
     padding: 7px;
     background: #0c0c0c;
     color: #66fcf1;
+}
+
+
+/* add lyrics page */
+
+.submit-btn {
+    color: #000000;
+    background-color: #66fcf1;
+    border-color: #66fcf1;
+    font-weight: bold;
 }
